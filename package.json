@@ -1,0 +1,35 @@
+{
+  "name": "tanstack-start-clerk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "format": "prettier -w .",
+    "preview": "$npm_execpath build && wrangler pages dev",
+    "deploy": "$npm_execpath build && wrangler deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clerk/tanstack-start": "^0.5.2",
+    "@tanstack/react-router": "^1.82.2",
+    "@tanstack/start": "^1.82.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "unenv": "^1.10.0",
+    "vinxi": "^0.4.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "wrangler": "^3.89.0"
+  }
+}
